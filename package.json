@@ -1,0 +1,23 @@
+{
+  "name": "RNInstabot",
+  "version": "0.0.1",
+  "description": "React Native module bridge to obtain Instabot chat",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "react-native",
+    "bridge",
+    "carrier",
+    "ios",
+    "android",
+    "react-component",
+    "instabot",
+    "react-native-instabot",
+    "RNInstabot"
+  ]
+}
