@@ -7,9 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <React/RCTBridgeModule.h>
-#import <Instabot/Instabot.h>
 
-@interface RNInstabot : NSObject <RCTBridgeModule>
+@interface RNInstabot : NSObject
 
 @end
