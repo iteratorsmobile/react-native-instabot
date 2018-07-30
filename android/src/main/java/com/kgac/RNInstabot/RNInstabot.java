@@ -29,6 +29,6 @@ public class RNInstabot extends ReactContextBaseJavaModule {
 
     @Override
     public String getName() {
-        return "Instabot";
+        return "RNInstabot";
     }
 }
