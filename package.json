@@ -1,12 +1,14 @@
 {
-  "name": "RNInstabot",
+  "name": "react-native-instabot",
   "version": "0.0.1",
+  "main": "index.js",
   "description": "React Native module bridge to obtain Instabot chat",
-  "private": true,
-  "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iteratorsmobile/react-native-instabot"
   },
+  "author": "Kgac",
+  "license": "MIT",
   "keywords": [
     "react",
     "native",
