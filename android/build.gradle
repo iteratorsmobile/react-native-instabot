@@ -1,17 +1,48 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.2'
+    }
+}
+
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
 
     defaultConfig {
         minSdkVersion 16
-        targetSdkVersion 22
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+repositories {
+    maven {
+        url 'https://artifactory.roko.mobi/artifactory/libs-release'
     }
 }
 
 dependencies {
     compile 'com.facebook.react:react-native:+'
+	compile 'com.google.code.gson:gson:2.7'
+	compile 'com.android.support:appcompat-v7:24.2.1' // or above
+	compile 'com.android.support:recyclerview-v7:24.2.1' // or above
+    compile('io.instabot:instabot-android-sdk:1.0+@aar')
 }
