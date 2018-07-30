@@ -3,15 +3,15 @@ import { NativeModules } from 'react-native';
 const _RNInstabot = require('react-native').NativeModules.RNInstabot;
 
 export default class Instabot {
-    static async start() {
-        return await _RNInstabot.start();
+    static async initializeSDK() {
+        return await _RNInstabot.initializeSDK();
     }
 
     static async setAPIKey(value) {
         return await _RNInstabot.setAPIKey(value);
     }
 
-    static async loadConversationWithID(value) {
-        return await _RNInstabot.loadConversationWithID(value);
+    static async launchInstabotWithSpecificConversationID(value) {
+        return await _RNInstabot.launchInstabotWithSpecificConversationID(value);
     }
 }

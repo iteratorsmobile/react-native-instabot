@@ -1,5 +1,5 @@
 {
-  "name": "RNInstabot",
+  "name": "react-native-instabot",
   "version": "0.0.1",
   "main": "index.js",
   "description": "React Native module bridge to obtain Instabot chat",
