@@ -75,6 +75,8 @@ import Instabot from 'react-native-instabot';
 | [setAPIKey()](#setAPIKey)                         | `string` - your Instabot Api Key |  ✅  |   ❌    |
 | [launchInstabotWithSpecificConversationID()](#launchInstabotWithSpecificConversationID)| `int` - conversation ID          |  ✅  |   ✅    |
 
+---
+
 ### initializeSDK()
 
 Initialize the Instabot SDK.
