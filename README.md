@@ -69,14 +69,6 @@ import Instabot from 'react-native-instabot';
 ```
 ## API
 
-| Method                                            | Arguments                        |  iOS | Android |
-| ------------------------------------------------- | -------------------------------- | :--: | :--- -: |
-| [initializeSDK()](#initializeSDK)                 |     -                            |  ✅  |   ✅    |
-| [setAPIKey()](#setAPIKey)                         | `string` - your Instabot Api Key |  ✅  |   ❌    |
-| [launchInstabotWithSpecificConversationID()](#launchInstabotWithSpecificConversationID)| `int` - conversation ID          |  ✅  |   ✅    |
-
----
-
 ### initializeSDK()
 
 Initialize the Instabot SDK.
@@ -89,7 +81,7 @@ Instabot.initializeSDK();
 
 ### setAPIKey()
 
-Once the SDK is added to your project, you need to add your API key. Pass your API Key as argument.
+Once the SDK is added to your project, you need to add your API key. Pass your API Key as argument. Function available only on iOS.
 
 **Examples**
 
@@ -98,7 +90,7 @@ Instabot.setAPIKey("yours API Key");
 ```
 ### launchInstabotWithSpecificConversationID()
 
-Launch Instabot with a specific conversation ID (you need to have ID of the bot you want to launch. For more visit: > [Instabot with specific ID](https://docs.instabot.io/docs/ios-launch-instabot-with-specific-conversation-id)). Pass bot conversation ID as argument. 
+Launch Instabot with a specific conversation ID (you need to have ID of the bot you want to launch. For more visit: [Instabot with specific ID](https://docs.instabot.io/docs/ios-launch-instabot-with-specific-conversation-id)). Pass bot conversation ID as argument. 
 
 **Examples**
 
