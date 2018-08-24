@@ -1,4 +1,4 @@
-package com.kgac.RNInstabot;
+package com.iteratorsmobile.RNInstabot;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
